@@ -1,0 +1,57 @@
+html{
+  background: #b52323;
+  padding: 10px;
+}
+
+i{
+  text-align: center;
+  color: #fffb18;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.dev{
+  text-align: center;
+  color: #fffb18;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  font-size: 21px;
+}
+
+.dev img{
+  display: flex;
+  margin: 0 auto ;
+}
+
+.App{
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  .App{
+    margin-top: 25%;
+  }
+}
+
+.home{
+  width: 90%;
+  padding: auto;
+  margin: 0 auto;
+}
+
+.app-title{
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+

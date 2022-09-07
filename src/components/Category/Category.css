@@ -1,0 +1,29 @@
+ul > li {
+  display: inline-block;
+  margin: 5px;
+}
+ul{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.Category-Link{
+  font-weight: semibold;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  background: #8818ff;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.Category-Link:hover{
+  background: #cfa2ff;
+}
+
+.Category-Title{
+  text-align: center;
+  color: white;
+}
+

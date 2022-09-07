@@ -1,0 +1,50 @@
+.form-group {
+  position: relative;
+  padding: 20px 0;
+  width: 50%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 2px solid #fffb18;
+  color: white;
+  display: block;
+  font-size: 20px;
+  padding: 10px 7px;
+  width: 100%;
+  background: none;
+}
+
+.form-group label {
+  padding: 0 5px;
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translateY(25px);
+  transition: all 0.2s ease-in-out;
+}
+
+.form-group input:valid,
+.form-group input:focus {
+    border-bottom-color: #ee6e73;
+    outline: none;
+}
+
+.form-group input:valid + label,
+.form-group input:focus + label {
+    color: #ee6e73;
+    font-size: 14px;
+    transform: translateY(0);
+}
+
+@media (max-width: 800px){
+  .form-group {
+    width: 90%;
+  }
+}
